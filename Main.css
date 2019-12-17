@@ -1,0 +1,156 @@
+/*Para dispositivos apaisados*/
+@media only screen and (orientation: landscape){
+    *{
+        font-family: monospace;
+    }
+    #up{
+        width: 3em;
+    }
+    nav{
+        position: fixed;
+        right: 3em;
+        bottom: 3em;
+    }
+    body{
+        background-color: rgb(253, 252, 231);
+    }
+    #menu{
+        text-align: center;
+        color: rgb(119, 117, 117);
+    }
+    #logo{
+        float: left;
+    }
+    #header{
+        font-variant: small-caps;
+        font-size: 5em;
+    }
+    #sep{
+        margin-top: -3%;
+        width: 50%;
+        text-align: center;
+    }
+    #options{
+        margin: auto;
+        font-size: 1.75em;
+        color: rgb(80, 80, 80);
+    }
+    #menu td{
+        padding: 0.5em;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-variant: small-caps;
+        text-transform: capitalize;
+    }
+    .selected{
+        border-radius: 1em;
+        background-color: lightcyan;
+    }
+    #options a{
+        text-decoration: none;
+        color: rgb(119, 117, 117);
+    }
+    #options a:hover{
+        padding: 1em;
+        font-size: 1.02em;
+        color: rgb(80, 80, 80);
+        border-radius: 1.5em;
+        background-color: lightcyan;
+    }
+    footer img{
+        height: 3em;
+        padding-top: 2.4em;
+    }
+    footer{
+        font-weight: bold;
+        background-color: lightgray;
+    }
+    #instagram {
+        position: relative;
+        left: 25%;
+    }
+    #youtube {
+        position: relative;
+        left: 60%;
+    }
+}
+/*Para dispositivos en vertical*/
+@media only screen and (orientation: portrait){
+    *{
+        font-family: monospace;
+    }
+    #up{
+        width: 3em;
+    }
+    nav{
+        position: fixed;
+        right: 3em;
+        bottom: 3em;
+    }
+    body{
+        background-color: rgb(253, 252, 231);
+    }
+    #menu{
+        text-align: center;
+    }
+    #logo{
+        text-align: center;
+        position: relative;
+        top: 0%;
+    }
+    #header{
+        font-family: monospace;
+        font-variant: small-caps;
+        font-size: 5em;
+        color: rgb(119, 117, 117);
+    }
+    #sep{
+        margin-top: -3%;
+        width: 50%;
+        text-align: center;
+        color: rgb(119, 117, 117);
+    }
+    #options{
+        margin: auto;
+        font-size: 1.5em;
+        color: rgb(80, 80, 80);
+    }
+    #menu td{
+        padding: 0.5em;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-variant: small-caps;
+        text-transform: capitalize;
+    }
+    .selected{
+        border-radius: 1em;
+        background-color: lightcyan;
+    }
+    #options a{
+        text-decoration: none;
+        color: rgb(119, 117, 117);
+    }
+    #options a:hover{
+        padding: 0.75em;
+        font-size: 1.02em;
+        color: rgb(80, 80, 80);
+        border-radius: 1.5em;
+        background-color: lightcyan;
+    }
+    footer img{
+        height: 3em;
+        padding-top: 2.4em;
+    }
+    footer{
+        font-weight: bold;
+        background-color: lightgray;
+    }
+    #instagram {
+        position: relative;
+        left: 25%;
+    }
+    #youtube {
+        position: relative;
+        left: 60%;
+    }
+}
